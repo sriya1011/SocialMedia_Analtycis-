@@ -1,1 +1,0 @@
-web:gunicorn social_media_analytics:app
