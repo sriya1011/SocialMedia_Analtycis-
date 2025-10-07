@@ -1,7 +1,7 @@
-# SocialMedia_Analtycis-
-📊 Social Media Analytics + Machine Learning 🧠
+# SocialMedia_Analtycis
+## 📊 Social Media Analytics + Machine Learning 🧠
 
-Analyze social media data using machine learning to extract insights, detect trends, predict engagement, and uncover user sentiment.
+Analyze social media data using machine learning to extract insights, predict engagement, and uncover user sentiment.
 This project is a *Dash* web application for analyzing social media influencer data. It includes data cleaning, visualization, and predictive modeling to understand engagement rates across different categories of influencers.
 
 ---
@@ -36,17 +36,24 @@ This project leverages social media data and machine learning models to perform:
 
 ---
 
-## Project Structure
+🧠 Machine Learning Models
+1. Regression (Random Forest Regressor)
+Predicts engagement rate based on:
+Followers
+Average Likes
+Posts
+Category
+Evaluation Metric:
+RMSE (Root Mean Squared Error)
 
-├── SocialMedia_analytics.py # Main Dash app script
-├── data.csv # Dataset file (influencer data)
-├── requirements.txt # Python dependencies
-├── Procfile # Deployment configuration for Render
-├── README.md # This file
+2. Classification (Random Forest Classifier)
+Classifies influencers into:
+High Engagement
+Low Engagement
+Evaluation:
+classification_report (Precision, Recall, F1-score)
 
 ---
-
-# 📊 Social Media Analytics + Machine Learning 🧠
 
 🔗 **Live Dashboard**: [Check it out on Render](https://socialmedia-analtycis-6.onrender.com)
 
